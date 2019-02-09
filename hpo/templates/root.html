@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Home Page Optometrist</title>
+</head>
+<body>
+  <h1>Home Page Optometrist</h1>
+  <p>Please input a website address (not for any social network site)</p>
+  <form method="get" action="{{ url_for('view_page') }}">
+    <input type="text" name="url" size="40">
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
